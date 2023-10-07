@@ -96,12 +96,9 @@ int main(int argc, char **argv){
             stack.pop_back();
         }
 
-        for(int i = 0; i < queue.size(); i++){
-            std::cout << queue[i].content << std::endl;
-        }
-
         float result = parse(queue);
         std::cout << "result " << result << std::endl;
+
     } catch (std::exception e) {
         std::cout << e.what() << std::endl;
     }
