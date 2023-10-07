@@ -5,5 +5,7 @@ Call using `calculator "<expression>"` where the expression is any mathetical eq
 
 **TODO:**
 support for negative numbers ex. `"-2+3"`
+
 support for powers ex. `"2^3"`
+
 support for functions ex. `log(2)`
